@@ -1,0 +1,24 @@
+# Temp / junk
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Scratch & local test
+scratch/
+test/
+*.test.*
+tmp/
+
+# Render intermediates (final videos live in the vault, not here)
+*.mp4
+*.mov
+*.mkv
+!frames/*.png
+!backgrounds/*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
